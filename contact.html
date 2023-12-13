@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="NavBar">
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="class.html">CLASSES/PROJECTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">HIRE ME</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form id="thankyou" action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="First_Name" required placeholder="First Name">
+
+                <label for="middleName">Middle Name (If Any):</label>
+                <input type="text" id="middleName" name="Middle_Name" placeholder="">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="Last_Name" required placeholder="Last Name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="dattebayo@example.com">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+</body>
+
+</html>
